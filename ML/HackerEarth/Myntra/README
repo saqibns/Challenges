@@ -1,0 +1,15 @@
+These are the order of the files (and a summary for each of them)
+
+1. Links-Analysis.ipynb: Experimentation on downloading files and saving them on to the disk, creating file names from links.
+
+2. download.py: A resumable downloader script to download files from the links in the CSVs.
+
+3. Data-Munging: Moving the training images to their respective class directory and create a stratified validation split from the training data.
+
+4. ResNet-34.ipynb: Bulk of the experiments with ResNet-34 Architecture. Identification of what works and what doesn't, which serves as the foundation to train ResNet-50. Since, ResNet-50 is a bigger model and take more time and resources to train, it was a good idea to do the experimentation on ResNet-34 and then apply the knowledge gained on ResNet-50.
+
+4. ResNet-50.ipynb: It is a clone of the ResNet-34 notebook with all the good parts. The instances of ResNet-34 have been replaced with ResNet-50.
+
+5. XGBoost-Augmented.ipynb: An attempt to stack an XGBoost classifier on the predictions and other columns provided in the data to get a better model.
+
+6. fastai: Wrappers written by the fast.ai community on top of Pytorch.  
