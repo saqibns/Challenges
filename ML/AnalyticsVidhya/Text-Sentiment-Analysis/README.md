@@ -87,7 +87,7 @@ With this, and downsampling the dataset, the public score improved to 0.529 and 
 
 #### Plus Ultra
 
-To go beyond, I downloaded [Rotten Tomatoes](https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews/data) sentiment analysis data from Kaggle. Training a BERT base model with the additional data gave a public score of 0.533 and a private score of 0.553. 
+To go beyond, I downloaded [Rotten Tomatoes](https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews/data) sentiment analysis data from Kaggle. Training a BERT base model with the additional data gave a public score of 0.533 and a private score of 0.553. This led to a rank of 19 on the [public leaderboard](https://datahack.analyticsvidhya.com/contest/innoplexus-online-hiring-hackathon/lb) and a rank of 11 on the [private leaderboard](https://datahack.analyticsvidhya.com/contest/innoplexus-online-hiring-hackathon/pvt_lb).
 
 
 
